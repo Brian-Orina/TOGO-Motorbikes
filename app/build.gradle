@@ -25,7 +25,24 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     // Firebase Libraries
-    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+
+    // Support libraries
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+    // Material Edit library
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    // Calligraphy library
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+    // Spots progress dialog library
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
