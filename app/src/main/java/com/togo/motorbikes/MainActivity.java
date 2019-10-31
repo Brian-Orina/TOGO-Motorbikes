@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
 
-
                 // Check Name Validation
                 if (TextUtils.isEmpty(edtName.getText())){
                     Snackbar.make(rootLayout, " Please Enter Your Full Names", Snackbar.LENGTH_SHORT).show();
